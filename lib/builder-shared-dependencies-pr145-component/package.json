@@ -1,0 +1,18 @@
+{
+  "name": "builder-shared-dependencies-pr145-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"figlet": "builder run figlet-cmd",
+  	"figlet-cmd": "figlet \"my builder script!\""
+  },
+  "dependencies": {
+  	"figlet-cli": "^0.1.0"
+  },
+  "devDependencies": {
+  	"builder-support": "^0.4.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "<%= packageName %>",
+  "version": "0.0.1",
+  "description": "<%= packageDescription || packageName %>",
+  "main": "index.js",
+  "scripts": {
+  	"figlet": "builder run figlet"
+  },
+  "dependencies": {
+  	"builder": "^3.2.3",
+    "builder-shared-dependencies-pr145-component": "<%= archetype.package.version ? '^' + archetype.package.version : '*' %>"
+  },
+  "devDependencies": {
+    "builder-shared-dependencies-pr145-component-dev": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

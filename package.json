@@ -1,0 +1,20 @@
+{
+  "name": "@builder.microservice.poc.telstraglobal.com/builder-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-component": "builder-init builder-shared-dependencies-pr145-component",
+    "bootstrap": "lerna bootstrap --hoist",
+    "lerna": "lerna"
+  },
+  "dependencies": {
+  	"builder-shared-dependencies-pr145-component": "^1.0.0"
+  },
+  "devDependencies": {
+     "builder-init": "^0.5.1",
+     "lerna": "2.4.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
